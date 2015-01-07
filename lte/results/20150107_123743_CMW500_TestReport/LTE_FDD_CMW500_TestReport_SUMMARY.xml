@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="%s.nosetests" tests="0" failures="0" errors="0" skip="0">
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000100" time="0.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000101" time="1.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000102" time="0.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000103" time="0.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000104" time="0.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+	<testcase classname="lte_fdd_percl.testplan_lte" name="testid_0000000105" time="0.0">
+		<skipped type="37" message="SERIAL_CONNECTION_COMMUNICATION_ERROR"></skipped>
+	</testcase>
+</testsuite>
