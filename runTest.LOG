@@ -1,364 +1,209 @@
-2015-01-07 14:43:23,884 - runTest - INFO - *****************************************************************************************
-2015-01-07 14:43:23,884 - runTest - INFO - Starting test with the following configuration:
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.log             	: DEBUG
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.rat             	: LTE_FDD
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.testerip        	: 10.21.141.234
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.testername      	: Anritsu
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.ctrlif          	: AT
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.testplan        	: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\lte_fdd_percl.xml
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.usimemu         	: 0
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.psu             	: 0
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.pwrmeas         	: 0
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.psugwip         	: 1.1.1.1
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.psugpib         	: 5
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.scdu            	: 0
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.scdu_ip         	: None
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.scdu_port       	: None
-2015-01-07 14:43:23,884 - testconfig_s.struct_log - INFO - testconfig_s.scdu_uid        	: None
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.reboot          	: 0
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.msglog          	: 0
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.remoteDB        	: 1
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBhost    	: ukdc-db-pl1testbench-dev
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBuid     	: testbench-read
-2015-01-07 14:43:23,885 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBname    	: pl1testbench
-2015-01-07 14:43:23,885 - runTest - INFO - *****************************************************************************************
-2015-01-07 14:43:23,885 - runTest - DEBUG - Calling <function TestbenchLTE at 0x00000000032EC828>...
-2015-01-07 14:43:23,887 - TestbenchLte - DEBUG - CSV Test Summary File : C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\current\LTE_FDD_CMW500_TestReport_SUMMARY.csv
-2015-01-07 14:43:23,888 - testplan_s._scan_testfiles() - DEBUG - scanning test plan files...
-2015-01-07 14:43:23,888 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,888 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000101_lte_fdd_percl_rfband_01_bwkhz_03000_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,888 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000102_lte_fdd_percl_rfband_01_bwkhz_05000_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,888 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000103_lte_fdd_percl_rfband_01_bwkhz_10000_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,890 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000104_lte_fdd_percl_rfband_01_bwkhz_15000_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,890 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000105_lte_fdd_percl_rfband_01_bwkhz_20000_sched_udch_nhrtx_None_chtype_None.xml)
-2015-01-07 14:43:23,890 - testplan_s._scan_testfiles() - DEBUG - check: PASSED
-2015-01-07 14:43:23,890 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,890 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,891 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,891 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,891 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 100
-2015-01-07 14:43:23,891 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:23,891 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:23,891 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [1.4]
-2015-01-07 14:43:23,892 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {1.4: [1, 2, 3]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {1.4: [4]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {1.4: [6]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {1.4: [0]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {1.4: [10]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {1.4: [6]}
-2015-01-07 14:43:23,894 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {1.4: [0]}
-2015-01-07 14:43:23,895 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,895 - TestbenchLte - INFO - Starting test execution of test 00100, iteration#1 of 1
-2015-01-07 14:43:23,895 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,895 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:23,895 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:23,914 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:23,914 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:23,915 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:23,917 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:23,917 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:23,917 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:23,917 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:23
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:23
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - duration [sec] : 0.0
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - testid         : 100
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:23,917 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,918 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,918 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000101_lte_fdd_percl_rfband_01_bwkhz_03000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,918 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,921 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,921 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 101
-2015-01-07 14:43:23,921 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:23,921 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:23,921 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000101_lte_fdd_percl_rfband_01_bwkhz_03000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [3]
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {3: [1, 2, 3]}
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:23,921 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:23,923 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {3: [24]}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {3: [15]}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {3: [0]}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {3: [19]}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {3: [15]}
-2015-01-07 14:43:23,924 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {3: [0]}
-2015-01-07 14:43:23,924 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,924 - TestbenchLte - INFO - Starting test execution of test 00101, iteration#1 of 1
-2015-01-07 14:43:23,924 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,924 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:23,924 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:23,944 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:23,944 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:23,944 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:23,947 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:23,947 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:23,947 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:23,947 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:23
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:23
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - duration [sec] : 0.0
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - testid         : 101
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000102_lte_fdd_percl_rfband_01_bwkhz_05000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,947 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,957 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,957 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 102
-2015-01-07 14:43:23,957 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:23,957 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:23,957 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000102_lte_fdd_percl_rfband_01_bwkhz_05000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [5]
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {5: [1, 2, 3]}
-2015-01-07 14:43:23,957 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {5: [24]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {5: [25]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {5: [0]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {5: [19]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {5: [25]}
-2015-01-07 14:43:23,959 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {5: [0]}
-2015-01-07 14:43:23,959 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,959 - TestbenchLte - INFO - Starting test execution of test 00102, iteration#1 of 1
-2015-01-07 14:43:23,959 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,959 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:23,959 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:23,980 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:23,980 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:23,980 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:23,983 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:23,983 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:23,983 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:23,983 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:23
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:23
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - duration [sec] : 0.0
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - testid         : 102
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:23,983 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,984 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,984 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000103_lte_fdd_percl_rfband_01_bwkhz_10000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,984 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,986 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,987 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 103
-2015-01-07 14:43:23,987 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:23,987 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:23,987 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000103_lte_fdd_percl_rfband_01_bwkhz_10000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:23,987 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:23,987 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [10]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {10: [1, 2, 3]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {10: [28]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {10: [50]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {10: [0]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {10: [23]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {10: [50]}
-2015-01-07 14:43:23,989 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {10: [0]}
-2015-01-07 14:43:23,989 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,989 - TestbenchLte - INFO - Starting test execution of test 00103, iteration#1 of 1
-2015-01-07 14:43:23,989 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:23,989 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:23,990 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:24,012 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:24,013 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:24,013 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:24,013 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:24,013 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:24,013 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:24,013 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:24,013 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,013 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:23
-2015-01-07 14:43:24,013 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:24
-2015-01-07 14:43:24,013 - TestbenchLte - INFO - duration [sec] : 1.0
-2015-01-07 14:43:24,013 - TestbenchLte - INFO - testid         : 103
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000104_lte_fdd_percl_rfband_01_bwkhz_15000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:24,015 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,019 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:24,019 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 104
-2015-01-07 14:43:24,019 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:24,019 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:24,019 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000104_lte_fdd_percl_rfband_01_bwkhz_15000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [15]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {15: [1, 2, 3]}
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:24,019 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {15: [28]}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {15: [75]}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {15: [0]}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {15: [23]}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {15: [75]}
-2015-01-07 14:43:24,020 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {15: [0]}
-2015-01-07 14:43:24,020 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,020 - TestbenchLte - INFO - Starting test execution of test 00104, iteration#1 of 1
-2015-01-07 14:43:24,020 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,020 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:24,022 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:24,042 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:24,042 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:24,043 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:24,045 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:24,045 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:24,045 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:24,045 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:24
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:24
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - duration [sec] : 0.0
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - testid         : 104
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:24,045 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,046 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,046 - TestbenchLte - INFO - Starting XML test unit execution: C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000105_lte_fdd_percl_rfband_01_bwkhz_20000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:24,046 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,049 - testunit_s.common.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:24,049 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 105
-2015-01-07 14:43:24,049 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
-2015-01-07 14:43:24,049 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
-2015-01-07 14:43:24,049 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000105_lte_fdd_percl_rfband_01_bwkhz_20000_sched_udch_nhrtx_None_chtype_None.xml
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - --------------------------------------
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [20]
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {20: [1, 2, 3]}
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
-2015-01-07 14:43:24,049 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {20: [28]}
-2015-01-07 14:43:24,051 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {20: [100]}
-2015-01-07 14:43:24,052 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {20: [0]}
-2015-01-07 14:43:24,052 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {20: [23]}
-2015-01-07 14:43:24,052 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {20: [100]}
-2015-01-07 14:43:24,052 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {20: [0]}
-2015-01-07 14:43:24,052 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,052 - TestbenchLte - INFO - Starting test execution of test 00105, iteration#1 of 1
-2015-01-07 14:43:24,052 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,052 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x00000000032EC358>...
-2015-01-07 14:43:24,052 - TestBlerLTE - INFO - Placeholder
-2015-01-07 14:43:24,075 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
-2015-01-07 14:43:24,075 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
-2015-01-07 14:43:24,075 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
-2015-01-07 14:43:24,076 - TestBlerLTE - INFO - Selected UE control interface : AT
-2015-01-07 14:43:24,076 - auto_detect_port - DEBUG - Auto port detection of Modem_port
-2015-01-07 14:43:24,076 - auto_detect_port_win - ERROR - not able to detect port
-2015-01-07 14:43:24,076 - TestBlerLTE - INFO - Closing communication objects
-2015-01-07 14:43:24,076 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,076 - TestbenchLte - INFO - start time     : 2015/01/07 14:43:24
-2015-01-07 14:43:24,076 - TestbenchLte - INFO - end time       : 2015/01/07 14:43:24
-2015-01-07 14:43:24,076 - TestbenchLte - INFO - duration [sec] : 0.0
-2015-01-07 14:43:24,078 - TestbenchLte - INFO - testid         : 105
-2015-01-07 14:43:24,078 - TestbenchLte - INFO - verdict        : INCONCLUSIVE
-2015-01-07 14:43:24,078 - TestbenchLte - INFO - result         : 37
-2015-01-07 14:43:24,078 - TestbenchLte - INFO - description    : SERIAL_CONNECTION_COMMUNICATION_ERROR
-2015-01-07 14:43:24,078 - TestbenchLte - INFO - *****************************************************************************************
-2015-01-07 14:43:24,078 - TestbenchLte - DEBUG - Generating XLM summary file : C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\current\LTE_FDD_CMW500_TestReport_SUMMARY.csv
-2015-01-07 14:43:24,079 - TestbenchLte - DEBUG - Copying folder C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\current--> C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\latest
-2015-01-07 14:43:24,085 - TestbenchLte - DEBUG - Copying folder C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\current --> C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\20150107_144321_CMW500_TestReport
-2015-01-07 14:43:24,088 - TestbenchLte - DEBUG - Removing folder C:\Perforce\chuyiq2\software\teams\phy\pl1_dev.br\modem\l123\phy\test\pl1_testbench_framework\lte\results\current
-2015-01-07 14:43:24,089 - runTest - INFO - EXIT STATUS : (1, FAILURE)
+2015-01-08 13:34:19,164 - runTest - INFO - *****************************************************************************************
+2015-01-08 13:34:19,164 - runTest - INFO - Starting test with the following configuration:
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - --------------------------------------
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.log             	: DEBUG
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.rat             	: LTE_FDD
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.testerip        	: 10.21.141.234
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.testername      	: Anritsu
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.ctrlif          	: AT
+2015-01-08 13:34:19,164 - testconfig_s.struct_log - INFO - testconfig_s.testplan        	: C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\lte_fdd_percl.xml
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.usimemu         	: 0
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.psu             	: 0
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.pwrmeas         	: 0
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.psugwip         	: 1.1.1.1
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.psugpib         	: 5
+2015-01-08 13:34:19,165 - testconfig_s.struct_log - INFO - testconfig_s.scdu            	: 0
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.scdu_ip         	: None
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.scdu_port       	: None
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.scdu_uid        	: None
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.reboot          	: 0
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.msglog          	: 0
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.remoteDB        	: 1
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBhost    	: ukdc-db-pl1testbench-dev
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBuid     	: testbench-read
+2015-01-08 13:34:19,167 - testconfig_s.struct_log - INFO - testconfig_s.remoteDBname    	: pl1testbench
+2015-01-08 13:34:19,167 - runTest - INFO - *****************************************************************************************
+2015-01-08 13:34:19,167 - runTest - DEBUG - Calling <function TestbenchLTE at 0x0000000003432AC8>...
+2015-01-08 13:34:19,174 - TestbenchLte - DEBUG - CSV Test Summary File : C:\Users\chuyiq\pl1_testbench_framework\lte\results\current\LTE_FDD_CMW500_TestReport_SUMMARY.csv
+2015-01-08 13:34:19,177 - testplan_s._scan_testfiles() - DEBUG - scanning test plan files...
+2015-01-08 13:34:19,177 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,177 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000101_lte_fdd_percl_rfband_01_bwkhz_03000_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,177 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000102_lte_fdd_percl_rfband_01_bwkhz_05000_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,178 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000103_lte_fdd_percl_rfband_01_bwkhz_10000_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,180 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000104_lte_fdd_percl_rfband_01_bwkhz_15000_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,180 - testplan_s._scan_testfiles() - DEBUG - FILE EXIST ? (True, C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000105_lte_fdd_percl_rfband_01_bwkhz_20000_sched_udch_nhrtx_None_chtype_None.xml)
+2015-01-08 13:34:19,180 - testplan_s._scan_testfiles() - DEBUG - check: PASSED
+2015-01-08 13:34:19,180 - TestbenchLte - INFO - *****************************************************************************************
+2015-01-08 13:34:19,180 - TestbenchLte - INFO - Starting XML test unit execution: C:\Users\chuyiq\pl1_testbench_framework\lte\common\testplan\units_fdd\lte_fdd_percl\testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml
+2015-01-08 13:34:19,180 - TestbenchLte - INFO - *****************************************************************************************
+2015-01-08 13:34:19,188 - testunit_s.common.struct_log - INFO - --------------------------------------
+2015-01-08 13:34:19,188 - testunit_s.common.struct_log - INFO - testunit_s.common.testid          	: 100
+2015-01-08 13:34:19,188 - testunit_s.common.struct_log - INFO - testunit_s.common.rat             	: LTE_FDD
+2015-01-08 13:34:19,188 - testunit_s.common.struct_log - INFO - testunit_s.common.testtype        	: LTE_FDD_PERCL_BLER
+2015-01-08 13:34:19,188 - testunit_s.common.struct_log - INFO - testunit_s.common.descr           	: testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml
+2015-01-08 13:34:19,188 - testunit_s.pcc.struct_log - INFO - --------------------------------------
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dmode           	: FDD
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlulconf        	: None
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ssconf          	: None
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.bwmhz           	: [1.4]
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rfband          	: [1]
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.earfcn          	: {1: [300]}
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.cp              	: NORM
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.tm              	: {1.4: [1, 2, 3]}
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.txants          	: {1: [1], 2: [2], 3: [2], 4: [2]}
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pmi             	: {1: {1: [None]}, 2: {2: [None]}, 3: {2: [None]}, 4: {2: [None]}}
+2015-01-08 13:34:19,190 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.rsepre          	: [-72.8]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pa              	: [-3]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.pb              	: [1]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.chtype          	: [None]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.snr             	: [30]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.doppler         	: [None]
+2015-01-08 13:34:19,191 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.schedtype       	: UDCH
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.harq            	: {'RIV': None, 'NHRTX': None}
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlmcs           	: {1.4: [4]}
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlnprb          	: {1.4: [6]}
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.dlrbstart       	: {1.4: [0]}
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulmcs           	: {1.4: [10]}
+2015-01-08 13:34:19,193 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulnprb          	: {1.4: [6]}
+2015-01-08 13:34:19,194 - testunit_s.pcc.struct_log - INFO - testunit_s.pcc.ulrbstart       	: {1.4: [0]}
+2015-01-08 13:34:19,194 - TestbenchLte - INFO - *****************************************************************************************
+2015-01-08 13:34:19,194 - TestbenchLte - INFO - Starting test execution of test 00100, iteration#1 of 1
+2015-01-08 13:34:19,194 - TestbenchLte - INFO - *****************************************************************************************
+2015-01-08 13:34:19,194 - TestbenchLte - DEBUG - Calling <function TestBlerLte at 0x0000000003431DD8>...
+2015-01-08 13:34:19,194 - TestBlerLTE - INFO - Placeholder
+2015-01-08 13:34:19,244 - testbler_s.testconfig_s.struct_merge - DEBUG - Merged testconfig_s --> testbler_s.testconfig_s
+2015-01-08 13:34:19,246 - testbler_s.testunit_s.struct_merge - DEBUG - Merged testunit_s --> testbler_s.testunit_s
+2015-01-08 13:34:19,246 - testbler_s.teststep_s.common.struct_merge - DEBUG - Merged testbler_s.testunit_s.common --> testbler_s.teststep_s.common
+2015-01-08 13:34:19,250 - TestBlerLTE - INFO - Selected UE control interface : AT
+2015-01-08 13:34:19,250 - auto_detect_port - DEBUG - Auto port detection of Modem_port
+2015-01-08 13:34:19,256 - AT._send_cmd - DEBUG - AT command     :	at%debug=99
+2015-01-08 13:34:19,256 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:19,391 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:19,392 - AT.modem_clear_crashinfo - INFO - erased modem crash info
+2015-01-08 13:34:19,392 - AT._send_cmd - DEBUG - AT command     :	at+cfun=0
+2015-01-08 13:34:19,394 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:19,496 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:19,496 - AT._send_cmd - DEBUG - AT command     :	at%idbgtest
+2015-01-08 13:34:19,496 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:24,000 - AT._send_cmd - DEBUG - Response       :	RFM Board ID
+2015-01-08 13:34:24,003 - TestBlerLTE - INFO - modem info:
+ Platform Information
+ --------------------
+ Public Chip ID           : F90539A135ABCE504E1FE5C0E7494D8FA9F32BD1
+ Boot ROM                 : ice9040-A0 V1.1
+ Digital baseband chip Id : ICE9045 (Vivalto 1)
+ Digital baseband version : A02P
+ Firmware Information
+ --------------------
+ Changelist               : CL824265
+ Number of modified files : 0
+ Branch name              : main.br
+ Variant                  : nvidia-e1729-internal
+ Archtype                 : modem
+ Build id (Sha1 on exe)   : 35732b31cd603c680cd249e4b9e8b85f3338157c
+ Sdk                      : 4.11a
+ &__extmem_size           : 0x3d00000
+ Noninit bottom addr      : 0x8bd0c6c0
+ bt2 yaffs heap used      : 101976
+ bt2 yaffs heap avail     : 196608
+ dxp0 Afault stack ptr    : 0x8bd01800
+ dxp1 Afault stack ptr    : 0x8bd03000
+ dxp2 Afault stack ptr    : 0x8bd04800
+ dxp0 heap size (Bytes)   : 2097152
+ dxp1 heap size (Bytes)   : 11091072
+ dxp2 heap size (Bytes)   : 2097152
+ Platform                 : icera.e1729
+ Boot counter             : at%idbgtest
+ 0
+ Digest numbers
+ --------------------
+ Secondary boot digest    : 98410C27
+ Loader digest            : DB5A82CF
+ Factory test digest      : 00000000
+ Application digest       : 30A224B5
+ RFM Board Identifcation
+ -------------------------
+ RFM Board ID             : BRI-200329
+ 
+2015-01-08 13:34:24,005 - getBranch - DEBUG - res : main.br
+2015-01-08 13:34:24,007 - getPlatorm - DEBUG - res : icera.e1729
+2015-01-08 13:34:24,009 - TestBlerLTE - INFO - ---------------------------------------
+2015-01-08 13:34:24,009 - TestBlerLTE - INFO - Extracted info branch   : main.br
+2015-01-08 13:34:24,009 - TestBlerLTE - INFO - Extracted info platform : icera.e1729
+2015-01-08 13:34:24,010 - TestBlerLTE - INFO - ---------------------------------------
+2015-01-08 13:34:24,072 - mySqlCheckPermission - DEBUG - db_params: name pl1testbench, uid testbench-read, host ukdc-db-pl1testbench-dev
+2015-01-08 13:34:24,072 - DatabaseMySqlPl1Testbench.__init__ - DEBUG - Checking MySQL database : (host=ukdc-db-pl1testbench-dev, dbname=pl1testbench, uid=testbench-read)
+2015-01-08 13:34:24,165 - DatabaseMySqlPl1Testbench.database_connect - DEBUG - Connected to database : pl1testbench
+2015-01-08 13:34:24,167 - DatabaseMySqlPl1Testbench.database_connect - DEBUG - Self.con is not None
+2015-01-08 13:34:24,190 - mySqlCheckPermission - DEBUG - Available access to DB: pl1testbench@ukdc-db-pl1testbench-dev for User: testbench-read is READ_ONLY.
+2015-01-08 13:34:24,190 - DatabaseMySqlPl1Testbench.database_disconnect - DEBUG - Disconnected from database : pl1testbench
+2015-01-08 13:34:24,190 - TestBlerLTE - INFO - Database access granted: READ_ONLY
+2015-01-08 13:34:24,191 - testbler_s.struct_teststep_init - DEBUG - Initialised subtest parameters
+2015-01-08 13:34:24,191 - testbler_s.struct_teststep_init - DEBUG - Initialised configuration parameters
+2015-01-08 13:34:24,191 - testbler_s.struct_teststep_init - DEBUG - Initialised sweep parameters
+2015-01-08 13:34:24,193 - testbler_s.struct_teststep_update - DEBUG - Updated subtest parameters
+2015-01-08 13:34:24,193 - testbler_s.struct_teststep_update - DEBUG - Updated config parameters
+2015-01-08 13:34:24,194 - testbler_s.struct_teststep_update_defaults - DEBUG - Updated default parameters
+2015-01-08 13:34:24,194 - TestBlerLTE - INFO -   -----------------------------------------------
+2015-01-08 13:34:24,194 - TestBlerLTE - INFO - PREPARING FOR ATTACH PROCEDURE
+2015-01-08 13:34:24,194 - TestBlerLTE - INFO -   -----------------------------------------------
+2015-01-08 13:34:24,194 - testbler_s.struct_log - INFO - *****************************************************************************************
+2015-01-08 13:34:24,196 - testbler_s.struct_log - INFO - Test step structure:
+2015-01-08 13:34:24,196 - testbler_s.struct_log - INFO - *****************************************************************************************
+2015-01-08 13:34:24,197 - testbler_s.teststep_s.common.struct_log - INFO - --------------------------------------
+2015-01-08 13:34:24,197 - testbler_s.teststep_s.common.struct_log - INFO - testbler_s.teststep_s.common.testid          	: 100
+2015-01-08 13:34:24,197 - testbler_s.teststep_s.common.struct_log - INFO - testbler_s.teststep_s.common.rat             	: LTE_FDD
+2015-01-08 13:34:24,197 - testbler_s.teststep_s.common.struct_log - INFO - testbler_s.teststep_s.common.testtype        	: LTE_FDD_PERCL_BLER
+2015-01-08 13:34:24,197 - testbler_s.teststep_s.common.struct_log - INFO - testbler_s.teststep_s.common.descr           	: testid_0000000100_lte_fdd_percl_rfband_01_bwkhz_01400_sched_udch_nhrtx_None_chtype_None.xml
+2015-01-08 13:34:24,198 - testbler_s.teststep_s.pcc.struct_log - INFO - --------------------------------------
+2015-01-08 13:34:24,198 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.dmode           	: FDD
+2015-01-08 13:34:24,200 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.dlulconf        	: None
+2015-01-08 13:34:24,200 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.ssconf          	: None
+2015-01-08 13:34:24,200 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.bwmhz           	: 1.4
+2015-01-08 13:34:24,200 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.rfband          	: 1
+2015-01-08 13:34:24,201 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.earfcn          	: 300
+2015-01-08 13:34:24,201 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.cp              	: NORM
+2015-01-08 13:34:24,203 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.tm              	: 1
+2015-01-08 13:34:24,203 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.txants          	: 1
+2015-01-08 13:34:24,203 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.pmi             	: None
+2015-01-08 13:34:24,203 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.rsepre          	: -72.8
+2015-01-08 13:34:24,204 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.pa              	: -3
+2015-01-08 13:34:24,204 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.pb              	: 1
+2015-01-08 13:34:24,206 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.chtype          	: None
+2015-01-08 13:34:24,206 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.snr             	: 30
+2015-01-08 13:34:24,207 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.doppler         	: None
+2015-01-08 13:34:24,207 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.schedtype       	: UDCH
+2015-01-08 13:34:24,207 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.nhrtx           	: None
+2015-01-08 13:34:24,207 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.riv             	: None
+2015-01-08 13:34:24,209 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.dlmcs           	: None
+2015-01-08 13:34:24,209 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.dlnprb          	: None
+2015-01-08 13:34:24,209 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.dlrbstart       	: None
+2015-01-08 13:34:24,210 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.ulmcs           	: None
+2015-01-08 13:34:24,210 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.ulnprb          	: None
+2015-01-08 13:34:24,210 - testbler_s.teststep_s.pcc.struct_log - INFO - testbler_s.teststep_s.pcc.ulrbstart       	: None
+2015-01-08 13:34:24,210 - AT._send_cmd - DEBUG - AT command     :	at+cfun=0
+2015-01-08 13:34:24,217 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:24,535 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:24,536 - AT.modem_off - INFO - modem switched OFF
+2015-01-08 13:34:24,536 - getModemConfig - DEBUG - PCC modem configuration : ['at+cfun=0', 'at%inwmode=1,E1,3', 'at%inwmode=0,E,1', 'at%ilteearfcn=300', 'at%isimemu=0']
+2015-01-08 13:34:24,536 - AT.modem_config - INFO - sending command list: ['at+cfun=0', 'at%inwmode=1,E1,3', 'at%inwmode=0,E,1', 'at%ilteearfcn=300', 'at%isimemu=0']
+2015-01-08 13:34:24,536 - AT._send_cmdlist - DEBUG - SEND CMD : at+cfun=0
+2015-01-08 13:34:24,536 - AT._send_cmd - DEBUG - AT command     :	at+cfun=0
+2015-01-08 13:34:24,536 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:28,971 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:28,971 - AT._send_cmdlist - DEBUG - SEND CMD : at%inwmode=1,E1,3
+2015-01-08 13:34:28,973 - AT._send_cmd - DEBUG - AT command     :	at%inwmode=1,E1,3
+2015-01-08 13:34:28,973 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:29,076 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:29,076 - AT._send_cmdlist - DEBUG - SEND CMD : at%inwmode=0,E,1
+2015-01-08 13:34:29,078 - AT._send_cmd - DEBUG - AT command     :	at%inwmode=0,E,1
+2015-01-08 13:34:29,078 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:29,180 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:29,180 - AT._send_cmdlist - DEBUG - SEND CMD : at%ilteearfcn=300
+2015-01-08 13:34:29,181 - AT._send_cmd - DEBUG - AT command     :	at%ilteearfcn=300
+2015-01-08 13:34:29,183 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:29,288 - AT._send_cmd - DEBUG - Response       :	OK
+2015-01-08 13:34:29,288 - AT._send_cmdlist - DEBUG - SEND CMD : at%isimemu=0
+2015-01-08 13:34:29,288 - AT._send_cmd - DEBUG - AT command     :	at%isimemu=0
+2015-01-08 13:34:29,289 - AT._send_cmd - DEBUG - Sending AT command. Iteration 1 of 3
+2015-01-08 13:34:29,390 - AT._send_cmd - DEBUG - Response       :	OK

@@ -235,13 +235,13 @@ class Anr(object):
 
     def reboot(self):    # FOR CMU ONLY BUT THIS NEVER WORKED
 
-        self.write("*SYST:REB:ERR ON")
-
+        #self.write("*SYST:REB:ERR ON")
+        #No command available for Anritsu8820C
 
 
     def gotolocal(self):
 
-        self.write('&GTL')
+        self.write('GTL')
 
 
 
@@ -263,8 +263,8 @@ class Anr(object):
         return reading
     def preset(self):
 
-        self.write("SYSTem:RESet:ALL")
-
+        #self.write("SYSTem:RESet:ALL")
+        self.write('PRESET')
         self.wait_for_completion()
 
 
@@ -375,8 +375,8 @@ class Anr(object):
 
     def read_state(self):
 
-        curr_state = self.read("FETCh:LTE:SIGN:PSWitched:State?")
-
+        #curr_state = self.read("FETCh:LTE:SIGN:PSWitched:State?")
+        curr_state=self.ask('CALLSTAT?')  #Inquire the call processing status, response: 0 off, 1 idle, 2 idle(Regist), 3 Registration, 4, 5, 6 Connected, 13, 14, 15, 16, 17
         self.wait_for_completion()
 
         return curr_state
@@ -415,8 +415,8 @@ class Anr(object):
 
 
 
-        cmwswinfo=self.read("SYSTem:BASE:OPTion:VERSion?")
-
+        #cmwswinfo=self.read("SYSTem:BASE:OPTion:VERSion?")
+        anrswinfo=self.ask('TAGSEL? SYS')
         self.wait_for_completion()
 
         logger.debug("SYSTem:BASE:OPTion:VERSion? %s" % cmwswinfo)
