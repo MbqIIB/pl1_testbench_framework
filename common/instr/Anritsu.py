@@ -94,7 +94,7 @@ class Anr(object):
 
     def __init__(self, name, ip_addr):
 
-        self.name    = name
+        self.name = name
 
         self.ip_addr = ip_addr
 
@@ -135,15 +135,15 @@ class Anr(object):
 
         cmd_rd = cmd + "?"
 
-        readback    = self.read(cmd_rd)
+        readback = self.read(cmd_rd)
 
         if ((type(param) is int) or (type(param) is float)):
 
-            res         = 0 if (float(param)==float(readback)) else 1
+            res = 0 if (float(param)==float(readback)) else 1
 
         else:
 
-            res         = 0 if (param in str(readback)) else 1
+            res = 0 if (param in str(readback)) else 1
 
         logger.debug("CHECKPOINT %-15s : %s (%s, readback=%s)" % (param_tag, ('FAIL' if res else 'PASS'), param, readback))
 
@@ -233,7 +233,7 @@ class Anr(object):
 
 
 
-    def reboot(self):    # FOR CMU ONLY BUT THIS NEVER WORKED
+    #def reboot(self):    # FOR CMU ONLY BUT THIS NEVER WORKED
 
         #self.write("*SYST:REB:ERR ON")
         #No command available for Anritsu8820C
